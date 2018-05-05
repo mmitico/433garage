@@ -1,5 +1,5 @@
 {
-  "name": "433garage",
+  "name": "homebridge-433garage",
   "version": "1.0",
   "description": "Garage-gate Door Opener plugin for Homebridge with auto-states using a 433mhz module on raspberry pi",
   "author": "Mmitico",
