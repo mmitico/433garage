@@ -1,0 +1,33 @@
+{
+  "name": "433garage",
+  "version": "1.0",
+  "description": "Garage-gate Door Opener plugin for Homebridge with auto-states using a 433mhz module on raspberry pi",
+  "author": "Mmitico",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmitico/433garage.git"
+  },
+  "bugs": {
+    "url": "git://github.com/mmitico/433garage",
+    "email": "mmitico2014@gmail.com"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "garage",
+    "garagedoor",
+    "home"
+    "433"
+    "raspberry"
+  ],
+  "engines": {
+    "node": ">=6.4.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "rpio": "^0.9.13"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
