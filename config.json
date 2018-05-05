@@ -8,8 +8,8 @@
     "description": "This is an example configuration file. You can use this as a template for creating your own configuration file.",
     "platforms": [],
     "accessories": [{
-        "accessory": "433garage",
-        "name": "433garage",
+        "accessory": "homebridge-433garage",
+        "name": "homebridge-433garage",
         "command": "sudo /home/pi/433Utils/RPi_utils/codesend 12345678",
         "simulateTimeOpening": 15,
         "simulateTimeOpen": 30,
