@@ -7,10 +7,10 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerAccessory('433garage', '433garage', 433garageAccessory);
+  homebridge.registerAccessory('homebridge-433garage', 'homebridge-433garage', homebridge-433garageAccessory);
 };
 
-class 433garageAccessory {
+class homebridge-433garageAccessory {
   constructor (log, config) {
 
     //get config values
